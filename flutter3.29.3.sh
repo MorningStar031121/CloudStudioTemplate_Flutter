@@ -9,8 +9,8 @@ echo "正在安装依赖..."
 apt install -y clang cmake libgtk-3-dev
 
 FLUTTER_VERSION="3.29.3"
-FLUTTER_DIR="/workspace/FlutterSDK"
-FLUTTER_DOWNLOAD="/workspace/flutter.tar.xz"
+FLUTTER_DIR="/Flutter/FlutterSDK"
+FLUTTER_DOWNLOAD="/Flutter/flutter.tar.xz"
 
 echo "创建Flutter安装目录..."
 mkdir -p "$FLUTTER_DIR"
@@ -38,7 +38,7 @@ flutter doctor -v
 
 echo "创建示例项目..."
 cd /workspace
-flutter create demo
+flutter create MyProject
 
 echo "清理安装包..."
 rm "$FLUTTER_DOWNLOAD"
@@ -46,3 +46,4 @@ rm "$FLUTTER_DOWNLOAD"
 echo -e "\n\033[32mInstallation completed!\033[0m"
 echo "请手动执行以下命令或重启终端使环境变量生效："
 echo "source ~/.zshrc"
+echo "请使用编辑器的文件打开项目文件夹"
