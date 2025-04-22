@@ -1,2 +1,2 @@
 # CloudStudioTemplate_Flutter
-存储各个版本的FlutterSDK的初始化脚本，用来在腾讯的CloudStudio中创建Flutter开发环境模板
+FlutterSDK3.29.3版本，仅支持Web端的调试，如需Android端、桌面端或虚拟机的调试，请添加其他配置与SDK或考虑在本地开发环境中使用FlutterSDK
