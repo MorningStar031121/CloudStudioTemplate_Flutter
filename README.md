@@ -1,2 +1,2 @@
-# FlutterSDK
-存储Flutter的各个版本，便于拉取
+# CloudStudioTemplate_Flutter
+存储各个版本的FlutterSDK的初始化脚本，用来在腾讯的CloudStudio中创建Flutter开发环境模板
