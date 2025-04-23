@@ -38,7 +38,7 @@ flutter doctor -v
 
 echo "创建示例项目..."
 cd /workspace
-flutter create MyProject
+flutter create myproject
 
 echo "清理安装包..."
 rm "$FLUTTER_DOWNLOAD"
