@@ -1,0 +1,22 @@
+---
+version: "v1"
+image: "cloudstudio.tencentcloudcr.com/saas.container/ubuntu-20.04:2023-04-25.0943"
+extensions:
+- "zhuangtongfa.material-theme@3.19.0"
+- "Dart-Code.flutter@3.108.0"
+- "vscode-icons-team.vscode-icons@12.12.0"
+lifecycle:
+  init:
+  - name: "启动Flutter创建脚本"
+    command: "bash flutter3.29.3.sh"
+name: "Flutter"
+description: "创建简单的Flutter开发环境并提供一个示例项目"
+tags:
+- "Dart"
+repository: "https://github.com/MorningStar031121/CloudStudioTemplate_Flutter.git"
+ref: "flutter3.29.3"
+storage:
+  copy_to_working_dir: false
+category: "userDefined"
+sort: 0
+show: true
